@@ -1,0 +1,55 @@
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 100;
+	src: url('/assets/fonts/Satoshi-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 300;
+	src: url('/assets/fonts/Satoshi-Light.woff2') format('woff2'),
+}
+
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/Satoshi-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 500;
+	src: url('/assets/fonts/Satoshi-Medium.woff2') format('woff2'),
+}
+
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 600;
+	src: url('/assets/fonts/Satoshi-DemiBold.woff2') format('woff2'),
+}
+
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 700;
+	src: url('/assets/fonts/Satoshi-Bold.woff2') format('woff2'),
+}
+
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 800;
+	src: url('/assets/fonts/Satoshi-ExtraBold.woff2') format('woff2'),
+}
+
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 900;
+	src: url('/assets/fonts/Satoshi-Black.woff2') format('woff2'),
+}
