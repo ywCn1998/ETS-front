@@ -13,16 +13,24 @@ import 'swiper/css';
 import theme from "../theme/theme";
 import queryClient from '../utils/queryClient';
 import OutletComponent from "./outLetComponent";
+import { useEffect } from "react";
 
 
 
 
 interface IProps {
-    defaultPalette?: PaletteMode; 
+    defaultPalette?: PaletteMode;
 }
 
 
 export const Layout = ({ }: IProps) => {
+
+
+    useEffect(() => {
+        if (!localStorage.getItem('token')) {
+            window.location.href = '/auth/login'
+        }
+    }, [])
 
     return (
         <QueryClientProvider client={queryClient}>
